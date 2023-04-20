@@ -1,0 +1,154 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_EDIT DIALOGEX 0, 0, 309, 316
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TRANSPARENT
+CAPTION "TileMap"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "닫기",IDCANCEL,252,295,50,14
+    CTEXT           "CountX",IDC_STATIC,2,7,42,30,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_COUNTX,48,15,51,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    CTEXT           "CountY",IDC_STATIC,128,7,42,30,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_COUNTY,174,15,51,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    CTEXT           "SizetX",IDC_STATIC,0,27,42,30,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_SIZEX,48,36,51,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    CTEXT           "SizeY",IDC_STATIC,126,27,42,30,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_SIZEY,174,36,51,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "생    성",IDC_BUTTON_CREATE_TILEMAP,247,14,55,37
+    LISTBOX         IDC_LIST_TEXTURE,7,57,113,135,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "이미지 불러오기",IDC_BUTTON_LOADTEXTURE,6,195,57,24
+    GROUPBOX        "TileEdit",IDC_STATIC,7,225,295,63
+    LISTBOX         IDC_LIST_TEXTURE_FRAME,133,57,113,135,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "StartX",IDC_STATIC,260,51,42,30,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_STARTFRAMEX,251,72,51,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    CTEXT           "StartY",IDC_STATIC,260,86,42,30,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_STARTFRAMEY,251,107,51,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    CTEXT           "EndX",IDC_STATIC,260,121,42,30,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_ENDFRAMEX,251,142,51,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    CTEXT           "EndY",IDC_STATIC,260,156,42,30,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT_ENDFRAMEY,251,177,51,14,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "프레임 추가",IDC_BUTTON_ADD_FRAME,132,195,54,24
+    COMBOBOX        IDC_COMBO_BRUSH_TYPE,11,238,69,49,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_OPTION,86,238,69,49,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "불러오기",IDC_BUTTON_LOAD,235,237,63,40
+    CONTROL         "Render",IDC_CHECK_RENDER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,262,39,10
+    CONTROL         "SideCollision",IDC_CHECK_SIDECOLLISION,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,86,262,55,10
+    PUSHBUTTON      "배경 불러오기",IDC_BUTTON_LOADTEXTURE_BACK,64,195,57,24
+    PUSHBUTTON      "일괄 생성",IDC_BUTTON_CREATE_ALL,193,195,54,24
+    PUSHBUTTON      "저     장",IDC_BUTTON_SAVE,163,237,63,40
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG_EDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 309
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG_EDIT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "D:\\c++\\GameFramework_kbj\\GameFramework_kbj\\Bin\\Texture\\icon.bmp"
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
